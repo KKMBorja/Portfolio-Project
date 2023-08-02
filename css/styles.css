@@ -159,13 +159,8 @@ margin-right: auto;
 .contact__heading--h2{
     color: rgb(0, 0, 0);
     font-size: 60px;
-text-align: center;
-text-shadow: 3px 3px 7px #ffffff;
-}
-
-
-.contact .form-tb {
-    column-gap: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 7px #ffffff;
 }
 
 .contact .form-tb p {
@@ -195,11 +190,19 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 70px;
     cursor: pointer;
-  }
+}
   
   input[type=submit]:hover {
     background-color: #cecece;
   } 
+
+.terms-submit{
+    text-align: center;
+}
+
+.terms-and-conditions{
+    color: black;
+}
 
 /* Footer */
 
@@ -225,7 +228,7 @@ footer{
     position: absolute;
     left: 570px; */
 }
-  
+
   /* Darker background on mouse-over */
   .btn:hover {
     background-color: #cecece;

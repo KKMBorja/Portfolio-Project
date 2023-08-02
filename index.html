@@ -158,12 +158,8 @@
 <div class="contact" id="scrollspyHeading4">
 <h2 class="contact__heading--h2"> Let's Chat Over Coffee
 </h2> 
-
-<center>
   <div class="form-tb d-flex">
- 
-      <form 
-action="mailto:John.doe@google.com method="post" enctype="text/plain">
+      <form action="mailto:John.doe@google.com" method="post" enctype="text/plain">
           <input type="text" id="fname" name="fullname" size="40" required placeholder="Your Name">
       <br>
           <input type="text" id="email" name="emailaddress" size="40" required placeholder="Your Email">
@@ -176,15 +172,14 @@ action="mailto:John.doe@google.com method="post" enctype="text/plain">
       <br>
           <textarea id="subject" name="subject" required placeholder="Tell me about your project/offer."></textarea>
       <br>
-    <input type="checkbox" id="terms" name="terms">
-    <label for="terms">Agree to <a href="terms-and-conditions.html" target="_blank">Terms and Conditions</a></label>
+    <div class="terms-submit">
+      <input type="checkbox" id="terms" name="terms">
+    <label class="terms-and-conditions" for="terms">Agree to <a href="terms-and-conditions.html" target="_blank">Terms and Conditions</a></label>
       <br>
-          <input type="submit" value="Hire Me Now!">
-      </form>                
+          <input class="hire-me" type="submit" value="Hire Me Now!">
+      </form>
+    </div>                
   </div>
-</center> 
-
-
 
 </div>
 </section>
