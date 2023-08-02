@@ -68,11 +68,6 @@
                   <li><a class="dropdown-item" href="https://www.linkedin.com/" target="_blank"><img class="socials" alt="Photo by Vectonauta" src="images/linked-in.webp"></a></li>
                   <li><a class="dropdown-item" href="https://web.whatsapp.com/" target="_blank"><img class="socials" alt="Photo by Vectonauta" src="images/whatsapp.webp"></a></li>
                 </ul>
-                <li class="nav-item">
-                <a href="terms-and-conditions.html" target="_blank">
-                Terms and Conditions</a>
-                </li>
-              <br>
               <li class="nav-item">
                 <a href="downloads/sample-resume.pdf" target="_blank"><button class="btn"><i class="fa fa-download"></i>Download CV</button></a>
               </li>
@@ -165,30 +160,30 @@
 </h2> 
 
 <center>
-    <div class="form-tb d-flex">
-   
-        <form 
-action="mailto:John.doe@google.com
-" method="mailto">
-            <input type="text" id="fname" name="fullname" width="200" required placeholder="Your Name">
-        <br>
-            <input type="text" id="email" name="emailaddress" width="200" required placeholder="Your Email">
-        <br>
-            <select id="Reason" name="Reason" required placeholder="Reason for Contacting">
-            <option>Reason for contacting</option>
-            <option value="Agree">Agree to Terms and Conditions</option>
-            <option value="Offer">Make an Offer</option>
-            <option value="Something Else">Something Else</option>
-            </select>
-        <br>
-            <textarea id="subject" name="subject" required placeholder="Tell me about your project/offer."></textarea>
-        <br>
-            <input type="submit" value="Hire Me Now!">
-        </form>
-        
-                
-    </div>
+  <div class="form-tb d-flex">
+ 
+      <form 
+action="mailto:John.doe@google.com method="post" enctype="text/plain">
+          <input type="text" id="fname" name="fullname" size="40" required placeholder="Your Name">
+      <br>
+          <input type="text" id="email" name="emailaddress" size="40" required placeholder="Your Email">
+      <br>
+          <select id="Reason" name="Reason" required placeholder="Reason for Contacting">
+          <option value="">Reason for contacting</option>
+          <option value="Offer">Make an Offer</option>
+          <option value="Something Else">Something Else</option>
+          </select>
+      <br>
+          <textarea id="subject" name="subject" required placeholder="Tell me about your project/offer."></textarea>
+      <br>
+    <input type="checkbox" id="terms" name="terms">
+    <label for="terms">Agree to <a href="terms-and-conditions.html" target="_blank">Terms and Conditions</a></label>
+      <br>
+          <input type="submit" value="Hire Me Now!">
+      </form>                
+  </div>
 </center> 
+
 
 
 </div>
